@@ -1,3 +1,4 @@
 **/node_modules/*
 **/out/*
 **/.next/*
+/src/next-env.d.ts
