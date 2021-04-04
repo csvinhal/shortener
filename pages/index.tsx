@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Typography from '../components/Typography/Typography'
 
 export const Home = (): JSX.Element => (
   <div className="container">
@@ -9,6 +10,7 @@ export const Home = (): JSX.Element => (
     </Head>
 
     <main>
+      <Typography component="h1" variant="h1">Teste</Typography>
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
