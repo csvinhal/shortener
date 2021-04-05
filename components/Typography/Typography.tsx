@@ -18,7 +18,7 @@ type Variant =
   | 'body1'
   | 'body2'
 
-interface Props {
+export interface Props {
   className?: string
   children: ReactNode
   component?: Component
@@ -39,12 +39,13 @@ const Component = styled.p<BaseComponentProps>`
   margin: 0;
   font-stretch: normal;
   font-style: normal;
+  font-weight: ${({emphasys}) => emphasys ? 'bold' : 'normal'};
   font-size: ${({ variant }) => `var(--font-size-${variant})`};
   line-height: ${({ variant }) => `var(--line-height-${variant})`};
   letter-spacing: ${({ variant }) => `var(--letter-spacing-${variant})`};
 `
 
-const Typography = ({
+export const Typography: React.FC<Props> = ({
   className,
   children,
   component,
@@ -60,7 +61,7 @@ const Typography = ({
   }, [variant])
 
   return (
-    <Component className={className} as={tag} variant={variant}>
+    <Component className={className} as={tag} variant={variant} emphasys={emphasys}>
       {children}
     </Component>
   )
@@ -70,5 +71,3 @@ Typography.defaultProps = {
   variant: 'body1',
   emphasys: false,
 }
-
-export default Typography

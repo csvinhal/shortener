@@ -14,10 +14,10 @@ const GlobalStyle = createGlobalStyle`
     --font-size-h4: 2.125rem;
     --font-size-h5: 1.5rem;
     --font-size-h6: 1.25rem;
-    --font-size-subtitle-1: 1rem;
-    --font-size-subtitle-2: 1rem;
-    --font-size-body-1: 1rem;
-    --font-size-body-2: 0.875rem;
+    --font-size-subtitle1: 1rem;
+    --font-size-subtitle2: 1rem;
+    --font-size-body1: 1rem;
+    --font-size-body2: 0.875rem;
 
     --line-height-h1: 1.25;
     --line-height-h2: 1.33;
@@ -25,10 +25,10 @@ const GlobalStyle = createGlobalStyle`
     --line-height-h4: 1.30;
     --line-height-h5: 1.32;
     --line-height-h6: 1.38;
-    --line-height-subtitle-1: 1.50;
-    --line-height-subtitle-2: 1.42;
-    --line-height-body-1: 1.50;
-    --line-height-body-2: 1.42;
+    --line-height-subtitle1: 1.50;
+    --line-height-subtitle2: 1.42;
+    --line-height-body1: 1.50;
+    --line-height-body2: 1.42;
 
     --line--spacing-h1: -0.015em;
     --line--spacing-h2: -0.01em;
@@ -36,8 +36,8 @@ const GlobalStyle = createGlobalStyle`
     --line--spacing-h4: 0.00735em;
     --line--spacing-h5: 0em;
     --line--spacing-h6: 0.0075em;
-    --line--spacing-subtitle-1: 0.005em;
-    --line--spacing-subtitle-2: 0.005em;
+    --line--spacing-subtitle1: 0.005em;
+    --line--spacing-subtitle2: 0.005em;
     --line--spacing-body-1: 0.0168em;
     --line--spacing-body-2: 0.0168em;
 
