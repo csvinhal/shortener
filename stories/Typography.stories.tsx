@@ -1,4 +1,3 @@
-import React from 'react'
 import { Story, Meta } from '@storybook/react'
 
 import { Typography, Props } from '../components/Typography/Typography'
@@ -9,7 +8,7 @@ export default {
 } as Meta
 
 const Template: Story = () => (
-  <div style={{display: 'flex', flexDirection: 'column'}}>
+  <div style={{ display: 'flex', flexDirection: 'column' }}>
     <Typography variant="h1">H1 Headline</Typography>
     <Typography variant="h2">H2 Headline</Typography>
     <Typography variant="h3">H3 Headline</Typography>

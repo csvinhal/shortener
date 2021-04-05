@@ -39,7 +39,7 @@ const Component = styled.p<BaseComponentProps>`
   margin: 0;
   font-stretch: normal;
   font-style: normal;
-  font-weight: ${({emphasys}) => emphasys ? 'bold' : 'normal'};
+  font-weight: ${({ emphasys }) => (emphasys ? 'bold' : 'normal')};
   font-size: ${({ variant }) => `var(--font-size-${variant})`};
   line-height: ${({ variant }) => `var(--line-height-${variant})`};
   letter-spacing: ${({ variant }) => `var(--letter-spacing-${variant})`};
@@ -61,7 +61,12 @@ export const Typography: React.FC<Props> = ({
   }, [variant])
 
   return (
-    <Component className={className} as={tag} variant={variant} emphasys={emphasys}>
+    <Component
+      className={className}
+      as={tag}
+      variant={variant}
+      emphasys={emphasys}
+    >
       {children}
     </Component>
   )

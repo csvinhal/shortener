@@ -9,8 +9,7 @@
     "standard",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "prettier",
-    "stylelint-config-recommended"
+    "prettier"
   ],
   "globals": {
     "Atomics": "readonly",

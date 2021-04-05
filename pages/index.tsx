@@ -10,7 +10,9 @@ export const Home = (): JSX.Element => (
     </Head>
 
     <main>
-      <Typography component="h1" variant="h1">Teste</Typography>
+      <Typography component="h1" variant="h1">
+        Teste
+      </Typography>
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
