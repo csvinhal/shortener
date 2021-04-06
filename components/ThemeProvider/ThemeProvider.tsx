@@ -226,7 +226,7 @@ interface Props {
   children: ReactNode
 }
 
-const ThemeProvider = ({ children }: Props) => {
+const ThemeProvider = ({ children }: Props): JSX.Element => {
   return (
     <>
       <GlobalStyle />

@@ -58,7 +58,7 @@ export const Typography: React.FC<Props> = ({
     }
 
     return theme.variantMapping[variant] as Component
-  }, [variant])
+  }, [component, variant])
 
   return (
     <Component
